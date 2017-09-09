@@ -1,6 +1,10 @@
-language: ruby
-rvm:
-  - 2.4.0
-install: script/bootstrap
-script: bundle exec rake test
-sudo: false
+{
+  "language": "ruby",
+  "rvm": "2.4.0",
+  "install": "script/bootstrap",
+  "script": "bundle exec rake test",
+  "sudo": false,
+  "group": "stable",
+  "dist": "precise",
+  "os": "linux"
+}
